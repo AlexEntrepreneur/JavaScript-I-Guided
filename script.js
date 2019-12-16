@@ -116,6 +116,9 @@ someCar.drive = function() {
 
 console.log(someCar.drive());
 
+// CHALLENGE!
+// 1. Create an object called person that has an age, name, & catchphrase
+
 
 //====== ARRAYS ======//
 
