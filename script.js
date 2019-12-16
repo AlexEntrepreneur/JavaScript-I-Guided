@@ -74,13 +74,47 @@ const greetMe = function(name) {
 
 console.log(greetMe("Dimos"));
 
+// Arrow function expression
+const myArrowFunction = () => {
+  // additional
+  return "result from arrow function";
+}
+
+console.log(myArrowFunction());
+
+// the one-liner
+const oneLiner = () => "This is returned from the one-liner";
+
+console.log(oneLiner());
 
 //====== OBJECTS ======//
+// A labelled collection of values
 
+const someCar = {
+  make: "Ford",
+  model: "GT",
+  "color": "Purple"
+};
+
+console.log(someCar);
 
 // Using dot notation:
+console.log(someCar.make);
 
 // Using square bracket syntax:
+console.log(someCar["color"]);
+
+// Adding properties to objects
+someCar['engine'] = "5L Petrol";
+someCar.model = "Escort";
+
+// Object methods
+// A function within an object
+someCar.drive = function() {
+  return "Vroom!";
+}
+
+console.log(someCar.drive());
 
 
 //====== ARRAYS ======//
