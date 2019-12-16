@@ -1,5 +1,9 @@
 console.log('💥 hello world 💥');
 
+var nonexistent;
+
+console.log(nonexistent);
+
 //====== VARIABLES ======//
 // Using Var:
 // DO NOT USE VAR !!!!
