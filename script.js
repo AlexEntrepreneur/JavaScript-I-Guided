@@ -164,6 +164,8 @@ fruits.unshift("watermelon");
 // Pop - remove the last item
 fruits.pop();
 
+fruits[0] = "FIRST FRUIT";
+
 const cars = [
   { id: 10, car_make: "Mercedes-Benz", car_model: "E-Class", car_year: 2000 },
   { id: 11, car_make: "Infiniti", car_model: "G35", car_year: 2004 },
