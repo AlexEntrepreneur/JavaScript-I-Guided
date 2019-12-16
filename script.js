@@ -188,3 +188,7 @@ for (let i = 0; i < cars.length; i++) {
 }
 
 // Challenge!
+// 1. Print out the model of the fifth item within the cars array
+// 2. Create a function called getCar that takes the cars array and a name as arguments
+// 3. Use getCar to print out the car with the name provided
+  // Hint: You will need a loop, an if statement...
