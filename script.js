@@ -146,6 +146,9 @@ function increaseAge(personObj) {
 
 console.log(increaseAge(person))
 
+console.log(person.name);
+console.log(person["catchPhrase"]);
+
 //====== ARRAYS ======//
 
 
