@@ -192,3 +192,15 @@ for (let i = 0; i < cars.length; i++) {
 // 2. Create a function called getCar that takes the cars array and a name as arguments
 // 3. Use getCar to print out the car with the name provided
   // Hint: You will need a loop, an if statement...
+
+console.log(cars[4].car_model);
+
+function getCar(carsArray, name) {
+  for (let i = 0; i < carsArray.length; i++) {
+    if (carsArray[i].car_model === name) {
+      return carsArray[i];
+    }
+  }
+}
+
+console.log(getCar(cars, "Cavalier"));
