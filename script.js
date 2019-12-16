@@ -116,10 +116,28 @@ someCar.drive = function() {
 
 console.log(someCar.drive());
 
+function changeColor(carObj, color) {
+  carObj.color = color;
+  return carObj;
+}
+
+console.log(changeColor(someCar, "Red"));
+
 // CHALLENGE!
 // 1. Create an object called person that has an age, name, & catchphrase
+// 2. Create a function called increaseAge that takes the person object as an argument
+// returns the object with the age increased by 1
 
-
+// Austin
+const person = {
+  name: "James Bond",
+  age: 45,
+  occupation: "Agent",
+  catchPhrase: "Shaken, not stirred.",
+  introduceSelf: function() {
+    return `The name's Bond, ${this.name}.`;
+  }
+};
 //====== ARRAYS ======//
 
 
