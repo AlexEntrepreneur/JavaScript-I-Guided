@@ -138,6 +138,14 @@ const person = {
     return `The name's Bond, ${this.name}.`;
   }
 };
+
+function increaseAge(personObj) {
+  personObj.age++;
+  return personObj;
+}
+
+console.log(increaseAge(person))
+
 //====== ARRAYS ======//
 
 
