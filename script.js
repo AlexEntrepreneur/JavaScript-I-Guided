@@ -177,3 +177,14 @@ const cars = [
 ];
 
 //====== LOOPS ======//
+for (let i = 0; i < fruits.length; i++) {
+  if (i > 3) {
+    console.log(fruits[i]);
+  }
+}
+
+for (let i = 0; i < cars.length; i++) {
+  console.log(cars[i].car_make);
+}
+
+// Challenge!
