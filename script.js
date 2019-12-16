@@ -150,6 +150,30 @@ console.log(person.name);
 console.log(person["catchPhrase"]);
 
 //====== ARRAYS ======//
+// Ordered collection of values
+const fruits = ["apple", "pear", "banana", "lemon", 5, [1,3,4,5], { name: "hello"}];
 
+console.log(fruits);
+
+console.log(fruits[fruits.length - 1]);
+
+// Push - adds items to the end an array
+fruits.push(true);
+// Unshift - adds items to the front of the array
+fruits.unshift("watermelon");
+// Pop - remove the last item
+fruits.pop();
+
+const cars = [
+  { id: 10, car_make: "Mercedes-Benz", car_model: "E-Class", car_year: 2000 },
+  { id: 11, car_make: "Infiniti", car_model: "G35", car_year: 2004 },
+  { id: 12, car_make: "Lotus", car_model: "Esprit", car_year: 2004 },
+  { id: 13, car_make: "Chevrolet", car_model: "Cavalier", car_year: 1997 },
+  { id: 14, car_make: "Dodge", car_model: "Ram Van 1500", car_year: 1999 },
+  { id: 28, car_make: "Suzuki", car_model: "Aerio", car_year: 2005 },
+  { id: 29, car_make: "Mercury", car_model: "Topaz", car_year: 1993 },
+  { id: 37, car_make: "Oldsmobile", car_model: "LSS", car_year: 1997 },
+  { id: 40, car_make: "Lotus", car_model: "Evora", car_year: 2012 }
+];
 
 //====== LOOPS ======//
